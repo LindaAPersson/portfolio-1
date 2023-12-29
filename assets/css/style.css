@@ -20,9 +20,10 @@ header {
     color: gold;
     font-size: large;
     display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 0;
     padding: 0;
+    flex-direction: column;
 }
 
 h1 {
@@ -34,7 +35,12 @@ nav ul {
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: baseline;
+    justify-content:space-evenly;
     background-color: white;
+    
+}
+
+header a {
+    text-decoration: none;
     color: black;
 }
