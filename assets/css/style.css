@@ -6,3 +6,12 @@ body {
     font-family: "poppins", sans-serif;
     color: brown;
 }
+
+/* Header */
+header {
+    height: 50px;
+    width: 100%;
+    background-color: gold;
+    color: cornflowerblue;
+    font-size: large;
+}
