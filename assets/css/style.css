@@ -22,7 +22,7 @@ body {
 /* Header */
 header {
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: rgb(38, 84, 169);
     color: gold;
     font-size: large;
     display: row;
@@ -42,6 +42,7 @@ h1 {
 #menu {
     font-size: 100%;
     list-style-type: none;
+    padding-top: 5px;
     
 }
 
@@ -57,7 +58,7 @@ nav ul {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: rgb(38, 84, 169);
     font-size: small;
     
 }
@@ -88,5 +89,6 @@ footer {
 }
 #social-media i {
     font-size: medium;
-    color: black;
+    color: rgb(38, 84, 169);
+    padding: 5px;
 }
