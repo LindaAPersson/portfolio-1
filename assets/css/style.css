@@ -4,14 +4,17 @@
 /* The hole page*/
 body {
     font-family: "poppins", sans-serif;
-    color: brown;
+    color: black;
 }
 
 /* Header */
 header {
-    height: 50px;
+    height: 65px;
     width: 100%;
-    background-color: gold;
-    color: cornflowerblue;
+    background-color: cornflowerblue;
+    color: gold;
     font-size: large;
+}
+nav ul {
+    list-style: none;
 }
