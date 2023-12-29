@@ -71,5 +71,16 @@ main {
 
 /* Footer*/
 footer {
-    background-color: blue;
+    background-color: white;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+#social-media {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+#social-media i {
+    color: black;
 }
