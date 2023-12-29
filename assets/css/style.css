@@ -5,6 +5,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing:border-box;
 }
 
 /* The hole page*/
@@ -28,6 +29,12 @@ header {
 
 h1 {
     text-transform: uppercase;
+    text-align: center;
+}
+
+#menu {
+    font-size: 100%;
+    list-style-type: none;
 }
 
 nav ul {
@@ -43,4 +50,13 @@ nav ul {
 header a {
     text-decoration: none;
     color: black;
+    font-size: small;
+    
 }
+
+nav {
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+/* Content / About Sweden*/
