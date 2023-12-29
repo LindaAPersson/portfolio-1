@@ -10,8 +10,13 @@
 
 /* The hole page*/
 body {
+    min-height: 100vh;
     font-family: "poppins", sans-serif;
     color: black;
+    display: flex;
+    flex-direction: column;
+    
+
 }
 
 /* Header */
@@ -20,11 +25,10 @@ header {
     background-color: cornflowerblue;
     color: gold;
     font-size: large;
-    display: flex;
+    display: row;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
+    
+    
 }
 
 h1 {
@@ -59,4 +63,13 @@ nav {
     border-bottom: solid black 1px;
 }
 
-/* Content / About Sweden*/
+/* Conten-About Sweden*/
+main {
+    display: flex;
+    flex: 1 0 auto;     
+}
+
+/* Footer*/
+footer {
+    background-color: blue;
+}
