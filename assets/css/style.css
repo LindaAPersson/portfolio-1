@@ -29,10 +29,6 @@ header {
     text-align: center;
 }
 
-header div {
-    margin-right: 25px;
-}
-
 h1 {
     text-transform: uppercase;
     text-align: center;
@@ -68,11 +64,23 @@ nav {
     border-bottom: solid black 1px;
 }
 
+#active {
+    border-bottom: solid 1px rgb(38, 84, 169);
+}
+
 /* Conten-About Sweden*/
 main {
-    display: flex;
+    display: row;
     flex: 1 0 auto;     
 }
+
+#hero-image {
+    height: 100px;
+    width: 100%;
+    background-image: url(../images/hero-image.jpg) no-repeat center/cover;
+}
+
+
 
 /* Footer*/
 footer {
