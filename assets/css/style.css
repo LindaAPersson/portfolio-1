@@ -80,8 +80,6 @@ main {
     background: url(../images/hero-image.jpg) no-repeat center/cover;
 }
 
-
-
 /* Footer*/
 footer {
     background-color: white;
@@ -99,4 +97,9 @@ footer {
     font-size: medium;
     color: rgb(38, 84, 169);
     padding: 5px;
+}
+
+/* contact me */
+#contact-me-form {
+    
 }
