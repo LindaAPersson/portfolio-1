@@ -104,7 +104,27 @@ footer {
 
 /*Cities*/
 #uppsala-img {
-    background: url(../images/uppsala.jpg) no-repeat cover;
-    height: 90px;
-    width: 90px;
+    background: url(../images/uppsala.jpg) no-repeat center center/cover;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    
+}
+#stockholm-img {
+    background: url(../images/stockholm.jpg) no-repeat center center/cover;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+}
+#goteborg-img {
+    background: url(../images/goteborg.jpg) no-repeat center center/cover;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+}
+#umea-img {
+    background: url(../images/umea.jpg) no-repeat center center/cover;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
 }
