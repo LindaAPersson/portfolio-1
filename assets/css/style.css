@@ -1,6 +1,12 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
 
+/* This takes away the browsers marging/padddning */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* The hole page*/
 body {
     font-family: "poppins", sans-serif;
@@ -9,13 +15,14 @@ body {
 
 /* Header */
 header {
-    height: 65px;
     width: 100%;
     background-color: cornflowerblue;
     color: gold;
     font-size: large;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
