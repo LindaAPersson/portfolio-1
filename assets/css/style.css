@@ -80,6 +80,15 @@ main {
     background: url(../images/hero-image.jpg) no-repeat center/cover;
 }
 
+
+#about {
+    margin: 5%;
+    padding: 5%;
+}
+#about div {
+    margin-top: 5%;
+}
+
 /* Footer*/
 footer {
     background-color: white;
