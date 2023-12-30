@@ -202,5 +202,21 @@ button {
     }
 }
 /*Laptops*/
-@media screen and (min-width: 992px) 
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1200px) {
+    .about-laptop {
+        column-count: 3;
+        column-gap: 30p;
+        
+    }
+    #cities {
+    margin: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    nav {
+        text-size-adjust: 120%;
+    }
+}
