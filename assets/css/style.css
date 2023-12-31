@@ -114,6 +114,7 @@ footer {
     background: url(../images/contact.jpg) no-repeat center center/cover;
     height: 100vh;
 }
+
 #contact-head {
     background-color: rgba(38, 84, 169, 0.7);
     width: 80%;
@@ -222,5 +223,17 @@ button {
     #umea-img {
         height: 30vw;
         width: 30vw;
+    }
+    #goteborg-img {
+        height: 40vw;
+        width: 40vw;
+    }
+    #stockholm-img {
+        height: 40vw;
+        width: 40vw;
+    }
+    #uppsala-img {
+        height: 40vw;
+        width: 40vw;
     }
 }
