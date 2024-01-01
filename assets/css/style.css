@@ -204,12 +204,7 @@ button {
 }
 /*Laptops*/
 @media screen and (min-width: 1200px) {
-    .about-laptop {
-        column-count: 3;
-        column-gap: 40px;
-        padding-bottom: 40px;
         
-    }
     #cities {
     margin: 5%;
     display: flex;
