@@ -15,8 +15,10 @@ body {
     color: black;
     display: flex;
     flex-direction: column;
-    
+}
 
+.hidden {
+    display: none;
 }
 
 /* Header */
@@ -25,7 +27,6 @@ header {
     background-color: rgb(38, 84, 169);
     color: gold;
     font-size: large;
-    display: row;
     text-align: center;
 }
 
@@ -70,7 +71,6 @@ nav {
 
 /* Conten-About Sweden*/
 main {
-    display: row;
     flex: 1 0 auto;     
 }
 
