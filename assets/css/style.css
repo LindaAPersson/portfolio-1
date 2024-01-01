@@ -29,6 +29,9 @@ header {
     font-size: large;
     text-align: center;
 }
+#logo {
+    padding-bottom: 5px;
+}
 
 h1 {
     text-transform: uppercase;
