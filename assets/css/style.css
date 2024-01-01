@@ -105,11 +105,18 @@ footer {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 2%;
 }
 #social-media i {
     font-size: 160%;
     color: rgb(38, 84, 169);
     padding: 5px;
+}
+
+#text-footer {
+    color: rgb(38, 84, 169);
+    text-align: center;
+    padding: 2%;
 }
 
 /* contact me */
