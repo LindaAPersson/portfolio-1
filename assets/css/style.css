@@ -77,20 +77,26 @@ main {
     flex: 1 0 auto;     
 }
 
-#hero-image {
+/*#hero-image {
     height: 300px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center/cover;
 }
+*/
+
 
 
 #about {
     margin: 5%;
     padding-left: 4%;
+  background: url(../images/hero-image.jpg) no-repeat center/cover;
+  
 }
 #about div {
     margin-top: 5%;
-    border-bottom: solid 2px rgb(38, 84, 169);
+    border: solid 2px rgb(38, 84, 169);
+  background-color: white;
+  
 }
 
 /* Footer*/
