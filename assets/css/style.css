@@ -52,16 +52,16 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content:space-evenly;
-    background-color: white;
+    
     
 }
 
-header li {
+header a {
     text-decoration: none;
-    color: rgb(38, 84, 169);
+    color: gold;
     font-size: 1rem;
     
-}*/
+}
 
 nav {
     border-top: solid black 1px;
@@ -69,7 +69,7 @@ nav {
 }
 
 #active {
-    border-bottom: solid 1px rgb(38, 84, 169);
+    border-bottom: solid 1px gold;
 }
 
 /* Conten-About Sweden*/
