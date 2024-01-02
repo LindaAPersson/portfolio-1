@@ -134,7 +134,7 @@ footer {
 }
 
 #contact-head {
-    background-color: rgba(38, 84, 169, 0.7);
+    background-color: rgba(55, 119, 193, 0.8);
     width: 80%;
     color: white;
     text-align: center;
@@ -143,7 +143,7 @@ footer {
 }
 
 #contact-me-form {
-    background-color: rgba(38, 84, 169, 0.7);
+    background-color: rgba(55, 119, 193, 0.8);
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -160,15 +160,16 @@ button {
 }
 /*Cities*/
 #cities {
-    margin: 5%;
+    padding: 5%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-content: center;
     align-items: center;
     text-align: center;
+    background-color: rgb(55, 119, 193);
+    color: white;
 }
-
 
 #uppsala-img {
     background: url(../images/uppsala.jpg) no-repeat center center/cover;
@@ -176,6 +177,7 @@ button {
     width: 40vw;
     border-radius: 50%;
     margin: 5%;
+    border: gold solid 2px;
     
 }
 #stockholm-img {
@@ -184,6 +186,7 @@ button {
     width: 40vw;
     border-radius: 50%;
     margin: 5%;
+    border: gold solid 2px;
 }
 #goteborg-img {
     background: url(../images/goteborg.jpg) no-repeat center center/cover;
@@ -191,6 +194,7 @@ button {
     width: 40vw;
     border-radius: 50%;
     margin: 5%;
+    border: gold solid 2px;
 }
 #umea-img {
     background: url(../images/umea.jpg) no-repeat center center/cover;
@@ -198,6 +202,7 @@ button {
     width: 40vw;
     border-radius: 50%;
     margin: 5%;
+    border: gold solid 2px;
 }
 
 /*Tablets*/
