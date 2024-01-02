@@ -102,11 +102,12 @@ div ul {
 
 /* Footer*/
 footer {
-    background-color: white;
-    border-top: solid black 1px;
-    border-bottom: solid black 1px;
+    background-color: rgb(55, 119, 193);
+    border-top: solid gold 1px;
+    border-bottom: solid gold 1px;
 }
 #social-media {
+    background-color: rgb(55, 119, 193)
     width: 100%;
     text-align: center;
     list-style: none;
@@ -116,12 +117,12 @@ footer {
 }
 #social-media i {
     font-size: 160%;
-    color: rgb(38, 84, 169);
+    color: white;
     padding: 5px;
 }
 
 #text-footer {
-    color: rgb(38, 84, 169);
+    color: white;
     text-align: center;
     padding: 2%;
 }
