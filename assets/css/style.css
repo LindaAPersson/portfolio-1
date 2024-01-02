@@ -24,13 +24,18 @@ body {
 /* Header */
 header {
     width: 100%;
-    background-color: rgb(38, 84, 169);
-    color: gold;
+    background-color: rgb(55 119 193);
+    color: white;
     font-size: large;
     text-align: center;
 }
 #logo {
     padding-bottom: 5px;
+    
+}
+
+#yellow {
+    color: gold;
 }
 
 h1 {
@@ -43,33 +48,32 @@ h1 {
     font-size: 100%;
     list-style-type: none;
     padding-top: 5px;
-  
+
+   
     
 }
 nav ul {
     height: 40px;
     width: 100%;
-    list-style: none;
     display: flex;
     justify-content:space-evenly;
-    
     
 }
 
 header a {
     text-decoration: none;
-    color: gold;
+    color: white;
     font-size: 1rem;
     
-}
+} 
 
 nav {
-    border-top: solid black 1px;
-    border-bottom: solid black 1px;
+    border-top: solid gold 1px;
+    border-bottom: solid gold 1px;
 }
 
 #active {
-    border-bottom: solid 1px gold;
+    border-bottom: solid 2px gold;
 }
 
 /* Conten-About Sweden*/
@@ -77,21 +81,23 @@ main {
     flex: 1 0 auto;     
 }
 
-#hero-image {
-    height: 300px;
-    width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center/cover;
-}
 
 #about {
-    margin: 5%;
-    padding-left: 4%;
+    
+    padding: 5%;
+    background: url(../images/hero-image.jpg) no-repeat center/cover;
+    width: 100%;
   
 }
 #about div {
     margin-top: 5%;
-    border-bottom: solid 2px rgb(38, 84, 169);
-  
+    border: solid 2px rgb(55 119 193);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+div ul {
+    list-style-type: none;
 }
 
 /* Footer*/

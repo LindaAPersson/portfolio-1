@@ -13,8 +13,8 @@ The header section of the page clearly tells the user the name of the page, its 
 Screenshot on header
 
 ### Home
-The starter page on the webpage (index.html) givs the reader some generell information about the country Sweden. The user can also read some “fun/interesting” fact about Sweden, and the purpose of that is to get them more interested in the country so booking a trip.   
-Screenshot on homepage 
+The starter page on the webpage (index.html) givs the reader some generell information about the country Sweden. The user can also read some “fun/interesting” fact about Sweden, and the purpose of that is to get them more interested in the country so booking a trip.  
+Screenshot on homepage
 Cities 
 On the cities page the user can see four different cities I Sweden. There is a picture and some short information about the city. 
 
@@ -22,7 +22,7 @@ Screenshot on cities
 
 ### Contact me!
 The form on the “contact me!” page is created so the user can leave some personal information and get contacted with some help to book a trip to Sweden. 
-The form collect the users first and last name, the email address, a date for when the user want to make the trip, and choice of what city the want to visit.  
+The form collect the users first and last name, the email address, a date for when the user want to make the trip, and choice of what city the want to visit. 
 Screenshot on Contact-me
 
 ### Footer
@@ -52,11 +52,11 @@ BILD
 ### Deployment
 This page was deployed through GitHub Pages
 
-Unfixed bugs 
+Unfixed bugs
 - There is no unfixed bugs. 
 
 ### Bugs
-- When deploying the link in the logo didn’t work.  Solution: Moved the link to the right place in the code. 
+- When deploying the link in the logo didn’t work. Solution: Moved the link to the right place in the code. 
 
 ## Further development
 If I had more time the next step for the page would be to make individual pages for all the cities. So when the user chose a city, the can click on it, get directed to a separate page, and get more information and pictures on the city. 
