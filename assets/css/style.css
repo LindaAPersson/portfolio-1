@@ -29,9 +29,9 @@ header {
     font-size: large;
     text-align: center;
 }
+
 #logo {
     padding-bottom: 5px;
-    
 }
 
 #yellow {
@@ -41,30 +41,25 @@ header {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    
 }
 
 #menu {
     font-size: 100%;
     list-style-type: none;
-    padding-top: 5px;
-
-   
-    
+    padding-top: 5px; 
 }
+
 nav ul {
     height: 40px;
     width: 100%;
     display: flex;
     justify-content:space-evenly;
-    
 }
 
 header a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
-    
 } 
 
 nav {
@@ -81,14 +76,12 @@ main {
     flex: 1 0 auto;     
 }
 
-
 #about {
-    
     padding: 5%;
     background: url(../images/hero-image.jpg) no-repeat center/cover;
     width: 100%;
-  
 }
+
 #about div {
     margin-top: 5%;
     border: solid 2px rgb(55 119 193);
@@ -106,15 +99,18 @@ footer {
     border-top: solid gold 1px;
     border-bottom: solid gold 1px;
 }
+
 #social-media {
-    background-color: rgb(55, 119, 193)
+    background-color: rgb(55, 119, 193);
     width: 100%;
     text-align: center;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 2%;
+    
 }
+
 #social-media i {
     font-size: 160%;
     color: white;
@@ -152,12 +148,13 @@ footer {
     color: white;
     padding: 5%;
 }
+
 button {
     margin-top: 5%;
     color: rgb(38, 84, 169);
     padding: 3px;
-
 }
+
 /*Cities*/
 #cities {
     padding: 5%;
@@ -178,8 +175,8 @@ button {
     border-radius: 50%;
     margin: 5%;
     border: gold solid 2px;
-    
 }
+
 #stockholm-img {
     background: url(../images/stockholm.jpg) no-repeat center center/cover;
     height: 40vw;
@@ -188,6 +185,7 @@ button {
     margin: 5%;
     border: gold solid 2px;
 }
+
 #goteborg-img {
     background: url(../images/goteborg.jpg) no-repeat center center/cover;
     height: 40vw;
@@ -196,6 +194,7 @@ button {
     margin: 5%;
     border: gold solid 2px;
 }
+
 #umea-img {
     background: url(../images/umea.jpg) no-repeat center center/cover;
     height: 40vw;
@@ -206,54 +205,52 @@ button {
 }
 
 /*Tablets*/
-
 @media screen and (min-width: 768px) {
-    #contact-me-form {
-        width: 60%;
-    }
-    #contact-head {
-        width: 60%;
-    }
-    .cities-tablets-right {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    .cities-tablets-left {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+#contact-me-form {
+    width: 60%;
+}
+#contact-head {
+    width: 60%;
+}
+.cities-tablets-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cities-tablets-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 }
 /*Laptops*/
-@media screen and (min-width: 1200px) {
-        
-    #cities {
+@media screen and (min-width: 1200px) {   
+#cities {
     margin: 5%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    }
+}
 
-    nav {
-        text-size-adjust: 120%;
+nav {
+    text-size-adjust: 120%;
     }
-    #umea-img {
-        height: 30vw;
-        width: 30vw;
+#umea-img {
+    height: 30vw;
+    width: 30vw;
     }
-    #goteborg-img {
-        height: 30vw;
-        width: 30vw;
+#goteborg-img {
+    height: 30vw;
+    width: 30vw;
     }
-    #stockholm-img {
-        height: 30vw;
-        width: 30vw;
+#stockholm-img {
+    height: 30vw;
+    width: 30vw;
     }
-    #uppsala-img {
-        height: 30vw;
-        width: 30vw;
+#uppsala-img {
+    height: 30vw;
+    width: 30vw;
     }
 }

@@ -17,43 +17,43 @@
 
 </head>
 <body>
-<header>
-    <div id="logo">
-        <a href="index.html">
-          <h1>Visit <span id="yellow">Sweden</span> </h1>
-          <p>- when you want to travel!</p>
-        </a>
-      </div>
-    <div>
-    <nav>
-    <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cities.html">Cities</a></li>
-        <li><a href="contact-me.html" id="active">Contact me!</a></li>
-    </ul>
-    </nav>
-    </div>
-</header>
+    <header>
+        <div id="logo">
+          <a href="index.html" aria-label="Link to home-page">
+            <h1>Visit <span id="yellow">Sweden</span> </h1>
+            <p>- when you want to travel!</p>
+          </a>
+        </div>
+        <div>
+        <nav>
+        <ul id="menu">
+            <li><a href="index.html" aria-label="Link to the home-page" id="active">Home</a></li>
+            <li><a href="cities.html" aria-label="Link to the cities-page">Cities</a></li>
+            <li><a href="contact-me.html" aria-label="Link to the Contackt me-page">Contact me!</a></li>
+        </ul>
+        </nav>
+        </div>
+    </header>
 <main>
     <section id="contact-bg"> 
         <h2 id="contact-head">Contact me about a trip to <span id="yellow">Sweden!</span></h2>
 
         <form action="https://formdump.codeinstitute.net" method="POST" id="contact-me-form">
            <label for="first_name">First Name</label>
-           <input type="text" name="first_name" id="first_name">
+           <input type="text" name="first_name" id="first_name" required>
            
            <label for="last_name">Last Name</label>
-           <input type="text" name="last_name" id="last_name">
+           <input type="text" name="last_name" id="last_name" required>
 
            <label for="email">Email Address</label>
-           <input type="email" name="email" id="email">
+           <input type="email" name="email" id="email" required>
 
            <label for="date">When do you want to travel?</label>
-           <input type="date" name="date" id="date">
+           <input type="date" name="date" id="date" required>
            
            
             <label for="destination">What city are you most interested in?</label>
-            <select name="destination" id="destination">
+            <select name="destination" id="destination" required>
                 <option value="Stockholm">Stockholm</option>
                 <option value="Uppsala">Uppsala</option>
                 <option value="Umeå">Umeå</option>
