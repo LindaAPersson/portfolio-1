@@ -101,8 +101,8 @@ footer {
 }
 
 #social-media {
-    background-color: rgb(55, 119, 193)
-;    width:: 100%;
+    background-color: rgb(55, 119, 193);
+    width: 100%;
     text-align: center;
     list-style: none;
     display: flex;
