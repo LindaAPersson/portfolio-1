@@ -96,13 +96,13 @@ div ul {
 /* Footer*/
 footer {
     background-color: rgb(55, 119, 193);
-    border-top: solid gold 1px;
+   border-top: solid gold 1px;
     border-bottom: solid gold 1px;
 }
 
 #social-media {
-    background-color: rgb(55, 119, 193);
-    width: 100%;
+    background-color: rgb(55, 119, 193)
+;    width:: 100%;
     text-align: center;
     list-style: none;
     display: flex;
@@ -226,7 +226,7 @@ button {
 /*Laptops*/
 @media screen and (min-width: 1200px) {   
 #cities {
-    margin: 5%;
+    padding: 5%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
