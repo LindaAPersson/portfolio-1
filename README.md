@@ -61,13 +61,25 @@ When checking the site through Lighthouse on a desktop version, the score improv
 ![Screenshot from the Lighthouse report on desktop-size](assets/readme-img/Lighthuse-desktop.png)
 
 ### Deployment
-This page was deployed through GitHub Pages
+This page was deployed through GitHub Pages through this steps:
+
+1. Log into GitHub.
+2. Locate the right GitHub Repository.
+3. At the top of the repository, select Settings from the menu.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. When selected, the page will automatically refresh and the website is deployed.
+7. Scroll back down to the "Pages" section to get the link to the webpage.
+
+Here´s the link to the deployed site [Visit Sweden](https://lindaapersson.github.io/portfolio-1/index.html)
 
 Unfixed bugs
-- There is no unfixed bugs. 
+- There is no unfixed bugs at the deployed site. 
 
-### Bugs
-- When deploying the link in the logo didn’t work. Solution: Moved the link to the right place in the code. 
+### Bugs and debuging 
+- The link in the logo didn’t work. Solution: Moved the link to the right place in the HTML-code. 
+- The id=yellow was used on two different attributs. Solution: changed the ID to a class attribute. 
+- W3C validator gave an error on the drop down menu in the form section, becasue it was missing a first choise when loading the page. Solution: Created another <option> with tha value of none.  
 
 ## Further development
 If I had more time the next step for the page would be to make individual pages for all the cities. So when the user chose a city, the can click on it, get directed to a separate page, and get more information and pictures on the city. 
@@ -78,8 +90,12 @@ The site could also benefit from a more advanced and detailed form section, so t
 - The code and links for the footer is from Love Running Project 
 
 ## Media 
-All background and city images is royalty free from Pixabay
+All background and city images is royalty free from [Pixabay](https://pixabay.com/sv/)
 The symbols are from https://fontawesome.com
 
-The screenshots are from:
-
+The screenshots are from: 
+[W3C Jigsaw](https://jigsaw.w3.org/css-validator/)
+[W3C validator](https://validator.w3.org/)
+[Am i responsiv?](https://ui.dev/amiresponsive)
+[Visit Sweden](https://lindaapersson.github.io/portfolio-1/index.html)
+Lighthouse
