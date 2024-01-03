@@ -10,44 +10,55 @@ The logo is yellow on a blue background (to symbol the Swedish flag)
 The navigation is in black in an easy to read font. The color on a white background creates good contrast and visibility. 
 The header section of the page clearly tells the user the name of the page, its purpose and where they can find the information. 
 
-Screenshot on header
+![Screenshot of header](assets/readme-img/header.png)
 
 ### Home
 The starter page on the webpage (index.html) givs the reader some generell information about the country Sweden. The user can also read some “fun/interesting” fact about Sweden, and the purpose of that is to get them more interested in the country so booking a trip.  
-Screenshot on homepage
-Cities 
-On the cities page the user can see four different cities I Sweden. There is a picture and some short information about the city. 
+![Screenshot of the starter page](assets/readme-img/home.png)
 
-Screenshot on cities
+### Cities 
+On the cities page the user can see four different cities I Sweden. There is a picture and some short information about the city. 
+![Screenshot of the city page, laptop-size](assets/readme-img/cities-laptop.png)
+![Screenshot of the city page, tablet-size](assets/readme-img/cities-tablet.png)
+![Screenshot of the city page, mobil-size](assets/readme-img/cities-mobil.png)
 
 ### Contact me!
 The form on the “contact me!” page is created so the user can leave some personal information and get contacted with some help to book a trip to Sweden. 
 The form collect the users first and last name, the email address, a date for when the user want to make the trip, and choice of what city the want to visit. 
-Screenshot on Contact-me
+![Screenshot of the contact-me page](assets/readme-img/contact-me.png)
 
 ### Footer
 the footer has a line of text ensuring the user to have a look at the social media sites for the company. And the logos and links to three different social media platforms. The links opens in a new tab. 
+![Screenshot of the footer](assets/readme-img/footer.png)
 
 ## Testing
 ### HTML
-The links in the Menu (navbar) works form all the pages. The link in the logo that takes you back to the home site works as well. 
-The links to the social media platforms in the footer works and opens in new tabs. 
-The “contact me” form works when tested. The email area needs to have a proper email address or you cant submit the form. The submission button works and the drop down list shows all four cities.  
+The link in the logo that takes you back to the home pages works when tested. 
+The three links in the Menu (navbar) works form all the pages. 
+The three links to the social media platforms in the footer works and opens in new tabs. 
+The “contact me” form works when tested. The email area needs to have a proper email address or you cant submit the form. The submission button works and the drop down list shows all four cities. You can´t submi an empty form.   
 
 ### UX 
 The site has a good contrast between the background and the text.
-- All the pages is responsive, from mobil size to laptop size.
+- All the pages is responsive, from mobil size to laptop size - 320px to 1920px.
 
 ## Validator 
-Using the W3C validator 
-HTML, no errors found on any of the three pages. 
-CSS, no errors found 
-Lighthouse
-Checking the site through Lighthouse, the site hade a bad performance score when it analysed the mobil version. That is because don’t have the knowledge I need to manage the images properly.  
-BILD
+## HTML
+The HTML code was tested with the W3C validator and no errors was found on any of the three pages. 
+![Screenshot from W3C validator of the starterpage](assets/readme-img/validate-home.png)
+![Screenshot from W3C validator of the cities-page](assets/readme-img/valindate-cities.png)
+![Screenshot from W3C validator of the contact-me page](assets/readme-img/validate-contact-me.png)
 
-Checking the site through Lighthouse, desktop version, it had a nice score 
-BILD
+## CSS
+The CSS code was tested with the W3C Jigsaw and no errors was found.
+![Screenshot from W3C Jigsaw of the CSS-code](assets/readme-img/validate-css.png)
+
+## Lighthouse
+Checking the site through Lighthouse, the site hade a bad performance score when it analysed the mobil version. That is because I don’t have the knowledge I need to manage the images properly.  
+![Screenshot from the Lighthouse report on mobil-size](assets/readme-img/Lighthouse-mobil.png)
+
+When checking the site through Lighthouse on a desktop version, the score improved.  
+![Screenshot from the Lighthouse report on desktop-size](assets/readme-img/Lighthuse-desktop.png)
 
 ### Deployment
 This page was deployed through GitHub Pages
