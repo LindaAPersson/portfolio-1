@@ -1,7 +1,7 @@
 # portfolio-1
 # Visit Sweden
 The Visit Sweden webpage is for people thinking about taking a trip to Sweden, but want some more information about the country. They can find some generell and fun information about the country and some useful information about a few cities. There is also a form that allows the users to fill in some personal information that will get them help to plan a customized trip.
-<img sre="assets/images/vision.png">
+![Screenshot of responsive design](assets/readme-img/responsivedesign.png)
 
 ## Features
 ### The header
