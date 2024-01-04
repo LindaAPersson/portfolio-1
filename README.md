@@ -16,7 +16,7 @@ The starter page on the webpage (index.html) gives the reader some general infor
 ![Screenshot of the starter page](assets/readme-img/home.png)
 
 ### Cities 
-On the cities page the user can see four different cities in Sweden. There is a picture and some short information about the city. 
+On the cities page the user can see four different cities in Sweden. There is a picture and some short information about the city. The page change layout depending on what screen the user use.   
 ![Screenshot of the city page, laptop-size](assets/readme-img/cities-laptop.png)
 ![Screenshot of the city page, tablet-size](assets/readme-img/cities-tablet.png)
 ![Screenshot of the city page, mobil-size](assets/readme-img/cities-mobil.png)
@@ -93,8 +93,8 @@ All background and city images are royalty free from: [Pixabay](https://pixabay.
 The symbols are from: https://fontawesome.com
 
 The screenshots are from: 
-[W3C Jigsaw](https://jigsaw.w3.org/css-validator/)
-[W3C validator](https://validator.w3.org/)
-[Am i responsive?](https://ui.dev/amiresponsive)
-[Visit Sweden](https://lindaapersson.github.io/portfolio-1/index.html)
-Lighthouse
+- [W3C Jigsaw](https://jigsaw.w3.org/css-validator/)
+- [W3C validator](https://validator.w3.org/)
+- [Am i responsive?](https://ui.dev/amiresponsive)
+- [Visit Sweden](https://lindaapersson.github.io/portfolio-1/index.html)
+- Lighthouse
