@@ -54,10 +54,10 @@ The CSS code was tested with the W3C Jigsaw and no errors were found.
 
 ## Lighthouse
 Checking the site through Lighthouse, the site had a bad performance score when it analyzed the mobile version. That is because I don’t have the knowledge I need to manage the images properly.  
-![Screenshot from the Lighthouse report on mobil-size](assets/readme-img/Lighthouse-mobil.png)
+![Screenshot from the Lighthouse report on mobil-size](assets/readme-img/lighthouse-mobil.png)
 
 When checking the site through Lighthouse on a desktop version, the score improved.  
-![Screenshot from the Lighthouse report on desktop-size](assets/readme-img/Lighthuse-desktop.png)
+![Screenshot from the Lighthouse report on desktop-size](assets/readme-img/lighthuse-desktop.png)
 
 ### Deployment
 This page was deployed through GitHub Pages through these steps:
@@ -73,7 +73,7 @@ This page was deployed through GitHub Pages through these steps:
 Here´s the link to the deployed site [Visit Sweden](https://lindaapersson.github.io/portfolio-1/index.html)
 
 Unfixed bugs
-- There are no unfixed bugs at the deployed site. 
+- There are no unfixed bugs at the deployed site that I'm aware of. 
 
 ### Bugs and debuging 
 - The link in the logo didn’t work. Solution: Moved the link to the right place in the HTML code. 
