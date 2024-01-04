@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 /* The hole page*/
@@ -46,21 +46,21 @@ h1 {
 #menu {
     font-size: 100%;
     list-style-type: none;
-    padding-top: 5px; 
+    padding-top: 5px;
 }
 
 nav ul {
     height: 40px;
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 header a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
-} 
+}
 
 nav {
     border-top: solid gold 1px;
@@ -73,7 +73,7 @@ nav {
 
 /* Conten-About Sweden*/
 main {
-    flex: 1 0 auto;     
+    flex: 1 0 auto;
 }
 
 #about {
@@ -96,7 +96,7 @@ div ul {
 /* Footer*/
 footer {
     background-color: rgb(55, 119, 193);
-   border-top: solid gold 1px;
+    border-top: solid gold 1px;
     border-bottom: solid gold 1px;
 }
 
@@ -108,7 +108,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 2%;
-    
+
 }
 
 #social-media i {
@@ -206,51 +206,59 @@ button {
 
 /*Tablets*/
 @media screen and (min-width: 768px) {
-#contact-me-form {
-    width: 60%;
-}
-#contact-head {
-    width: 60%;
-}
-.cities-tablets-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-.cities-tablets-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-}
-/*Laptops*/
-@media screen and (min-width: 1200px) {   
-#cities {
-    padding: 5%;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    #contact-me-form {
+        width: 60%;
+    }
+
+    #contact-head {
+        width: 60%;
+    }
+
+    .cities-tablets-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .cities-tablets-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
-nav {
-    text-size-adjust: 120%;
+/*Laptops*/
+@media screen and (min-width: 1200px) {
+    #cities {
+        padding: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
-#umea-img {
-    height: 30vw;
-    width: 30vw;
+
+    nav {
+        text-size-adjust: 120%;
     }
-#goteborg-img {
-    height: 30vw;
-    width: 30vw;
+
+    #umea-img {
+        height: 30vw;
+        width: 30vw;
     }
-#stockholm-img {
-    height: 30vw;
-    width: 30vw;
+
+    #goteborg-img {
+        height: 30vw;
+        width: 30vw;
     }
-#uppsala-img {
-    height: 30vw;
-    width: 30vw;
+
+    #stockholm-img {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    #uppsala-img {
+        height: 30vw;
+        width: 30vw;
     }
 }

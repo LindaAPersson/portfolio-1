@@ -1,88 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Visit Sweden</title>
-<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-<link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Sweden</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-<header>
-<!-- Header / Logo -->
-    <div id="logo">
-    <a href="index.html" aria-label="Link to Visit Swedens home-page">
-        <h1>Visit <span class="yellow">Sweden</span> </h1>
-        <p>- when you want to travel!</p>
-    </a>
-    </div>
-<!-- Navbar/menu-->
-    <div>
-        <nav>
-        <ul id="menu">
-            <li><a href="index.html" aria-label="Link to the home-page">Home</a></li>
-            <li><a href="cities.html" aria-label="Link to the cities-page">Cities</a></li>
-            <li><a href="contact-me.html" aria-label="Link to the Contact me-page" id="active">Contact me!</a></li>
+    <header>
+        <!-- Header / Logo -->
+        <div id="logo">
+            <a href="index.html" aria-label="Link to Visit Swedens home-page">
+                <h1>Visit <span class="yellow">Sweden</span> </h1>
+                <p>- when you want to travel!</p>
+            </a>
+        </div>
+        <!-- Navbar/menu-->
+        <div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html" aria-label="Link to the home-page">Home</a></li>
+                    <li><a href="cities.html" aria-label="Link to the cities-page">Cities</a></li>
+                    <li><a href="contact-me.html" aria-label="Link to the Contact me-page" id="active">Contact me!</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--Backgroud image-->
+        <section id="contact-bg">
+            <!--Headline -->
+            <h2 id="contact-head">Contact me about a trip to <span class="yellow">Sweden!</span></h2>
+            <!--Form-->
+            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-me-form">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" required>
+
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="date">When do you want to travel?</label>
+                <input type="date" name="date" id="date" required>
+
+                <label for="destination">What city are you most interested in?</label>
+                <select name="destination" id="destination" required>
+                    <option value="" selected>Cities</option>
+                    <option value="Stockholm">Stockholm</option>
+                    <option value="Uppsala">Uppsala</option>
+                    <option value="Umeå">Umeå</option>
+                    <option value="Göteborg">Göteborg</option>
+                </select>
+
+                <button type="submit">Contact me!</button>
+            </form>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div id="text-footer">
+            <h3>Have a look at our social media to see what we can do for you!</h3>
+        </div>
+        <ul id="social-media">
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
         </ul>
-        </nav>
-    </div>
-</header>
+    </footer>
 
-<main>
-<!--Backgroud image-->
-<section id="contact-bg"> 
-<!--Headline -->
-    <h2 id="contact-head">Contact me about a trip to <span class="yellow">Sweden!</span></h2>
-<!--Form-->
-    <form action="https://formdump.codeinstitute.net" method="POST" id="contact-me-form">
-        <label for="first_name">First Name</label>
-        <input type="text" name="first_name" id="first_name" required>
-           
-        <label for="last_name">Last Name</label>
-        <input type="text" name="last_name" id="last_name" required>
-
-        <label for="email">Email Address</label>
-        <input type="email" name="email" id="email" required>
-
-        <label for="date">When do you want to travel?</label>
-        <input type="date" name="date" id="date" required>
-           
-        <label for="destination">What city are you most interested in?</label>
-        <select name="destination" id="destination" required>
-            <option value="" selected>Cities</option>
-            <option value="Stockholm">Stockholm</option>
-            <option value="Uppsala">Uppsala</option>
-            <option value="Umeå">Umeå</option>
-            <option value="Göteborg">Göteborg</option>
-        </select>
-
-        <button type="submit">Contact me!</button>
-    </form>
-</section>
-</main>
-<!--Footer-->
-<footer>
-    <div id="text-footer">
-        <h3>Have a look at our social media to see what we can do for you!</h3>
-    </div>
-    <ul id="social-media">
-        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-            aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a></li>
-        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-            aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-            aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
-    </ul>
-</footer>
-
-<!--Fontawsome-->
-<script src="https://kit.fontawesome.com/b6bd3cd609.js" crossorigin="anonymous"></script>
+    <!--Fontawsome-->
+    <script src="https://kit.fontawesome.com/b6bd3cd609.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
